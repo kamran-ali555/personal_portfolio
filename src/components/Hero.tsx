@@ -9,21 +9,24 @@ export default function Hero() {
       <div className="container mx-auto px-6 pt-20 relative">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            <span className="bg-gradient-to-r from-blue-500 to-teal-400 text-transparent bg-clip-text">
+            <span className="bg-gradient-to-r leading-snug from-blue-500 to-teal-400 text-transparent bg-clip-text">
               Frontend Developer
             </span>
             <br />
-            Crafting Digital Experiences
+            Transforming Visions into Reality
+            {/* Crafting Digital Experiences */}
           </h1>
           
           <p className="text-gray-400 text-lg md:text-xl mb-8 max-w-2xl mx-auto">
-            Transforming ideas into elegant, responsive, and user-friendly web applications
-            using modern technologies and best practices.
+           Empower your creativity and bring your VR app ideas to life with our intuitive development            
+           tools. Get started today and turn your imagination into immersive reality!
+            {/* Transforming ideas into elegant, responsive, and user-friendly web applications
+            using modern technologies and best practices. */}
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="#projects"
+              href="https://github.com/kamran-ali555"
               className="px-8 py-3 bg-gradient-to-r from-blue-500 to-teal-400 rounded-full text-white font-medium flex items-center gap-2 hover:opacity-90 transition-opacity"
             >
               View Projects

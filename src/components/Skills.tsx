@@ -12,7 +12,7 @@ export default function Skills() {
     },
     {
       category: 'Tools',
-      items: ['Git', 'Webpack', 'Vite', 'npm', 'VS Code']
+      items: ['Git', 'VS Code', 'Vite', 'npm', 'Figma']
     },
     {
       category: 'Other',

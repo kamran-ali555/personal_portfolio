@@ -23,7 +23,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="font-medium">Email</p>
-                    <p className="text-sm text-gray-400">contact@example.com</p>
+                    <p className="text-sm text-gray-400">kamranaelikakakhail@gmail.com</p>
                   </div>
                 </a>
                 
@@ -36,7 +36,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="font-medium">Phone</p>
-                    <p className="text-sm text-gray-400">+1 (234) 567-890</p>
+                    <p className="text-sm text-gray-400">+92 3554302895</p>
                   </div>
                 </a>
                 
@@ -46,14 +46,14 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="font-medium">Location</p>
-                    <p className="text-sm text-gray-400">San Francisco, CA</p>
+                    <p className="text-sm text-gray-400">Gilgit, Pakistan</p>
                   </div>
                 </div>
               </div>
             </div>
             
             {/* Contact Form */}
-            <form className="space-y-6">
+            <form action='kamranaelikakakhail@gmail.com' className="space-y-6">
               <div>
                 <label htmlFor="name" className="block text-sm font-medium mb-2">
                   Name

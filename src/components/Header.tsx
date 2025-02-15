@@ -20,7 +20,7 @@ export default function Header() {
       <div className="container mx-auto px-6">
         <nav className="flex items-center justify-between">
           <a href="#" className="text-2xl font-bold bg-gradient-to-r from-blue-500 to-teal-400 text-transparent bg-clip-text">
-            Portfolio
+            Kamran Ali
           </a>
 
           {/* Desktop Navigation */}
@@ -38,13 +38,13 @@ export default function Header() {
 
           {/* Social Links */}
           <div className="hidden md:flex items-center space-x-4">
-            <a href="#" className="text-gray-400 hover:text-white transition-colors">
+            <a href="https://github.com/kamran-ali555" className="text-gray-400 hover:text-white transition-colors">
               <Github className="w-5 h-5" />
             </a>
-            <a href="#" className="text-gray-400 hover:text-white transition-colors">
+            <a href="https://www.linkedin.com/in/kamranail/" className="text-gray-400 hover:text-white transition-colors">
               <Linkedin className="w-5 h-5" />
             </a>
-            <a href="#" className="text-gray-400 hover:text-white transition-colors">
+            <a href="kamranaelikakakhail@gmail.com" className="text-gray-400 hover:text-white transition-colors">
               <Mail className="w-5 h-5" />
             </a>
           </div>
@@ -73,13 +73,13 @@ export default function Header() {
                 </a>
               ))}
               <div className="flex space-x-4 pt-4">
-                <a href="#" className="text-gray-400 hover:text-white transition-colors">
+                <a href="https://github.com/kamran-ali555" className="text-gray-400 hover:text-white transition-colors">
                   <Github className="w-5 h-5" />
                 </a>
-                <a href="#" className="text-gray-400 hover:text-white transition-colors">
+                <a href="https://www.linkedin.com/in/kamranail/" className="text-gray-400 hover:text-white transition-colors">
                   <Linkedin className="w-5 h-5" />
                 </a>
-                <a href="#" className="text-gray-400 hover:text-white transition-colors">
+                <a href="kamranaelikakakhail@gmail.com" className="text-gray-400 hover:text-white transition-colors">
                   <Mail className="w-5 h-5" />
                 </a>
               </div>
