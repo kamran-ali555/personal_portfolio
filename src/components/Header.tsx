@@ -16,8 +16,8 @@ export default function Header() {
   const navItems = ['About', 'Skills', 'Projects', 'Testimonials', 'Contact'];
 
   return (
-    <header className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-gray-900/95 backdrop-blur-sm py-4' : 'bg-transparent py-6'}`}>
-      <div className="container mx-auto px-6">
+    <header className={`border-b border-neutral-700/80  fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-gray-900/95 backdrop-blur-lg py-4' : 'bg-transparent py-6'}`}>
+      <div className="container mx-auto px-6 ">
         <nav className="flex items-center justify-between">
           <a href="#" className="text-2xl font-bold bg-gradient-to-r from-blue-500 to-teal-400 text-transparent bg-clip-text">
             Kamran Ali
