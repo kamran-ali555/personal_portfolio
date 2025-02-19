@@ -1,32 +1,37 @@
 import React from 'react';
 import { ExternalLink, Github } from 'lucide-react';
+import binary from "../assets/binary.png";
+import portfolio from "../assets/potfolio.png";
+import store from "../assets/Gstore.png";
 
 export default function Projects() {
   const projects = [
     {
       title: 'E-commerce Platform',
       description: 'A modern e-commerce platform built with React and Next.js, featuring a responsive design and seamless checkout experience.',
-      image: 'https://images.unsplash.com/photo-1661956602116-aa6865609028?auto=format&fit=crop&q=80&w=800&h=500',
-      tags: ['React', 'Next.js', 'Tailwind CSS', 'Stripe'],
-      liveUrl: '#',
-      githubUrl: '#'
+      image: store,
+      tags: [ 'JavaScript', 'Next.js', 'Tailwind CSS', 'Stripe'],
+      liveUrl: 'https://gernalstone-website.vercel.app/',
+      githubUrl: 'https://github.com/kamran-ali555'
     },
     {
       title: 'Task Management App',
       description: 'A collaborative task management application with real-time updates and drag-and-drop functionality.',
-      image: 'https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?auto=format&fit=crop&q=80&w=800&h=500',
-      tags: ['React', 'TypeScript', 'Redux', 'Socket.io'],
-      liveUrl: '#',
-      githubUrl: '#'
+      image: binary,
+      tags: [ 'JavaScript', 'React.Js', 'bootstrap', 'SCSS',],
+      liveUrl: 'https://binaryhub-omega.vercel.app/',
+      githubUrl: 'https://github.com/kamran-ali555'
     },
     {
       title: 'Portfolio Website',
       description: 'A responsive portfolio website showcasing projects and skills with modern design and animations.',
-      image: 'https://images.unsplash.com/photo-1517134191118-9d595e4c8c2b?auto=format&fit=crop&q=80&w=800&h=500',
-      tags: ['React', 'Tailwind CSS', 'Framer Motion'],
-      liveUrl: '#',
-      githubUrl: '#'
-    }
+      image: portfolio,
+      tags: [ 'JavaScript', 'HTML5', 'CSS3', 'Framer Motion'],
+      liveUrl: 'https://dev-portfolio-lilac-gamma.vercel.app/',
+      githubUrl: 'https://github.com/kamran-ali555'
+    },
+    
+    
   ];
 
   return (

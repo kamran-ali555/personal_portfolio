@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 export default function Skills() {
   const skills = [
     {
@@ -12,7 +13,7 @@ export default function Skills() {
     },
     {
       category: 'Tools',
-      items: ['Git', 'VS Code', 'Vite', 'npm', 'Figma']
+      items: ['GitHub', 'VS Code', 'Vercel', 'Hostinger', 'Figma']
     },
     {
       category: 'Other',
