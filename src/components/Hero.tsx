@@ -4,7 +4,7 @@ import { ArrowRight, ChevronDown } from 'lucide-react';
 
 export default function Hero() {
   return (
-    <section id="hero" className="min-h-screen flex items-center justify-center relative bg-gray-900">
+    <section id="hero" className="min-h-screen flex items-center justify-center relative bg-gray-900 pt-28 px-">
       <div className="absolute inset-0 bg-gradient-to-b from-blue-500/10 to-transparent" />
       
       <div className="flex md:flex-row flex-col md:gap-0 gap-10 md:justify-around items-center w-full ">
@@ -85,19 +85,19 @@ export default function Hero() {
 
 
 
-{/* <div className="w-full flex justify-center mt-9  md:justify-start md:mt-10   lg:mt-14">
-<a
-  href="https://github.com/kamran-ali555"
-  className="py-3 px-4 mx-3 bg-gradient-to-r from-blue-500 to-teal-400 rounded-full text-white font-medium flex items-center gap-2 hover:opacity-90 transition-opacity"
->
-  View Projects
-  <ArrowRight className="w-4 h-4" />
-</a>
+// {/* <div className="w-full flex justify-center mt-9  md:justify-start md:mt-10   lg:mt-14">
+// <a
+//   href="https://github.com/kamran-ali555"
+//   className="py-3 px-4 mx-3 bg-gradient-to-r from-blue-500 to-teal-400 rounded-full text-white font-medium flex items-center gap-2 hover:opacity-90 transition-opacity"
+// >
+//   View Projects
+//   <ArrowRight className="w-4 h-4" />
+// </a>
 
-<a
-  href="#contact"
-  className="py-3 px-4 mx-3 bg-white/10 rounded-full text-white font-medium hover:bg-white/20 transition-colors"
->
-  Contact Me
-</a>
-</div> */}
+// <a
+//   href="#contact"
+//   className="py-3 px-4 mx-3 bg-white/10 rounded-full text-white font-medium hover:bg-white/20 transition-colors"
+// >
+//   Contact Me
+// </a>
+// </div> */}

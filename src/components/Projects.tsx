@@ -3,9 +3,36 @@ import { ExternalLink, Github } from 'lucide-react';
 import binary from "../assets/binary.png";
 import portfolio from "../assets/potfolio.png";
 import store from "../assets/Gstore.png";
+import ahmed from "../assets/ahmed.png"
+import binary2 from "../assets/binary2.png"
+import binary1 from "../assets/binary1.png"
 
 export default function Projects() {
   const projects = [
+    {
+      title: 'Ahmed Communication',
+      description: 'Ahmed Communication is a fully responsive and modern communication service website that I developed using React.js, JavaScript, Tailwind CSS and Framer Motion.',
+      image: ahmed,
+      tags: [ 'JavaScript', 'React.Js', 'Tailwind CSS', 'Framer Motion',],
+      liveUrl: 'https://binaryhub',
+      githubUrl: 'https://github.com/kamran-ali555'
+    },
+    {
+      title: 'Binary Digital Services',
+      description: 'As a web developer, I recently had the opportunity to work on Binary`s website using React.js.Binary Digital Services is a tech company that specializes in cutting-edge technologies and innovative solutions.',
+      image: binary2,
+      tags: [ 'JavaScript', 'React.Js', 'bootstrap', 'Material UI',],
+      liveUrl: 'https://binaryhub-omega/',
+      githubUrl: 'https://github.com/kamran-ali555'
+    },
+     {
+      title: 'Binary Hub',
+      description: 'As a web developer, I recently had the opportunity to work on Binary`s website using React.js.Binary Hub is a tech company that specializes in cutting-edge technologies and innovative solutions.',
+      image: binary1,
+      tags: [ 'JavaScript', 'React.Js', 'Tailwind CSS', 'Material UI',],
+      liveUrl: 'https://binaryhub-omeg',
+      githubUrl: 'https://github.com/kamran-ali555'
+    },
     {
       title: 'E-commerce Platform',
       description: 'A modern e-commerce platform built with React and Next.js, featuring a responsive design and seamless checkout experience.',
